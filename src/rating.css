@@ -1,0 +1,31 @@
+.rating-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .rating-container img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .rating-container button {
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .rating-container button:hover {
+    background-color: #4caf50;
+  }
+  
+  .rating-container button.active {
+    background-color: #4caf50;
+  }
+  
