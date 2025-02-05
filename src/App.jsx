@@ -1,17 +1,11 @@
-import React, { useState } from "react";
-import CitySelector from "./components/CitySelector";
-import CityCard from "./components/CityCard";
-import { citiesData } from "./components/CityDatas";
+import React from "react";
+import MathQuiz from "./components/MathQuiz";
 import "./App.css";
-
 function App() {
-  const [selectedCity, setSelectedCity] = useState(null);
-
   return (
-    <div className="app-container">
-      <h1>City Cards</h1>
-      <CitySelector cities={citiesData} onSelectCity={setSelectedCity} />
-      {selectedCity && <CityCard city={selectedCity} />}
+    <div className="app">
+      <h1>Math Quiz</h1>
+      <MathQuiz />
     </div>
   );
 }
