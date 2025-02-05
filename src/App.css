@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #a8e063, #7dbc60);
+    font-family: "Arial", sans-serif;
+    color: #2c2c2c;
+  }
+  
+  .app-container {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #2e5126;
+  }
+  
+  .city-selector {
+    margin-bottom: 30px;
+  }
+  
+  .city-selector label {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #0b1908;
+  }
+  
+  select {
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #dceec1;
+    border-radius: 10px;
+    background-color: #579757;
+    color: #f8f7f7;
+  }
+  
+  select:focus {
+    outline: none;
+    border-color: #56ab2f;
+  }
+  
+  .city-card {
+    padding: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 20px auto;
+  }
+
+  .city-card img {
+    /* width: 100%;
+    height: auto; */
+    border-radius: 10px;
+  }
+  
+  .city-card h2 {
+    color: #2e5126;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .city-card p {
+    font-size: 1em;
+    color: #2c2c2c;
+    margin-bottom: 10px;
+  }
+  
+  .city-card ul {
+    text-align: left;
+    list-style: disc;
+    padding-left: 20px;
+    color: #2c2c2c;
+  }
+  
+  .city-card ul li {
+    margin-bottom: 5px;
+  }
+  
+  
