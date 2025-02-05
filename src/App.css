@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .app {
+    padding: 20px;
+  }
+  
+  .math-quiz {
+    border: 2px solid #822b97;
+    padding: 20px;
+    margin: 20px auto;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #6fc1dc;
+}
+
+.math-quiz p {
+    font-size: 20px;
+}
