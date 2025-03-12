@@ -1,0 +1,17 @@
+.app {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+}
+  
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+  
+.value-display {
+    font-size: 18px;
+    color: #333;
+}
+  
