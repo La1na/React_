@@ -1,0 +1,50 @@
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+  
+.contactInfo {
+    width: 60%;
+}
+  
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  
+.contactForm input,
+.contactForm textarea {
+    /* width: 100%; */
+    padding: 10px;
+    border: 1px solid #d0c8c8;
+    border-radius: 5px;
+}
+  
+.contactForm input{
+    width: 200px;
+}
+
+.contactForm button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 8px;
+}
+
+.socialLinks img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+.socialIcons {
+    display: flex;
+    gap: 15px; 
+    justify-content: center; 
+    align-items: center;
+}
+  
